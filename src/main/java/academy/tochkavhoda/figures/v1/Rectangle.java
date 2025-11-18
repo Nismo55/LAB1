@@ -7,8 +7,9 @@ public class Rectangle {
     private Point bottomRight;
 
     public Rectangle(Point leftTop, Point rightBottom) {
-        this.topLeft = new Point(leftTop.getX(), leftTop.getY());
-        this.bottomRight = new Point(rightBottom.getX(), rightBottom.getY());
+//        this.topLeft = new Point(leftTop.getX(), leftTop.getY());
+//        this.bottomRight = new Point(rightBottom.getX(), rightBottom.getY());
+        this(leftTop.getX(), leftTop.getY(), rightBottom.getX(), rightBottom.getY());
     }
 
     public Rectangle(int xLeft, int yTop, int xRight, int yBottom) {
